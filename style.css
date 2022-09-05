@@ -157,18 +157,21 @@ body {
         width: 60%;
     }
     .res-margin {
-        margin: 16px 0 36px 36px;
+        padding: 0 0 36px 66px;
     }
     .res-board {
         display: flex; 
-        justify-content:space-between; 
+        justify-content:space-between;
+        align-items: center;
         flex-direction: row-reverse;
+        height: 90vh;
     }
     .board-1st {
-        width: 65%; 
+        width: 50%; 
     }
     .board-2nd {
-        width: 35%; 
+        width: 50%; 
+        margin-top: -100px;
     }
     .logo{
         width: 160px;
@@ -177,9 +180,9 @@ body {
         margin: 30px 50px;
     }
     .boat {
-        position: absolute;
+        /* position: absolute;
         top: -140px;
-        right: -100px;
+        right: -100px; */
     }
     .mail {
         position: absolute;
