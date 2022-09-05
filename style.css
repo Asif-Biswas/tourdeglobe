@@ -58,6 +58,13 @@ body {
     .board-1st {
         margin-bottom: -90px;
     }
+    .logo {
+        margin: -24px;
+        width: 80px;
+    }
+    .subscribe-form {
+        margin: 0;
+    }
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -81,6 +88,13 @@ body {
     .board-2nd {
         width: 60%; 
     }
+    .logo {
+        margin: -16px;
+        width: 120px;
+    }
+    .subscribe-form {
+        margin: 30px;
+    }
 }
 
 @media (min-width: 900px) {
@@ -100,6 +114,12 @@ body {
     }
     .board-2nd {
         width: 35%; 
+    }
+    .logo{
+        width: 160px;
+    }
+    .subscribe-form {
+        margin: 30px 50px;
     }
 }
 
