@@ -50,10 +50,13 @@ body {
         width: 90%;
     }
     .res-margin {
-        margin: 16px 0 16px 16px;
+        margin: 16px 16px 16px 16px;
     }
     .plane{
         margin-left: -140%;
+    }
+    .board-1st {
+        margin-bottom: -90px;
     }
 }
 
@@ -62,10 +65,21 @@ body {
         width: 80%;
     }
     .res-margin {
-        margin: 16px 0 24px 24px;
+        margin: 0 0 24px 24px;
     }
     .plane{
         margin-left: -50%;
+    }
+    .res-board {
+        display: flex; 
+        justify-content:space-between; 
+        flex-direction: row-reverse;
+    }
+    .board-1st {
+        width: 50%; 
+    }
+    .board-2nd {
+        width: 60%; 
     }
 }
 
@@ -75,6 +89,17 @@ body {
     }
     .res-margin {
         margin: 16px 0 36px 36px;
+    }
+    .res-board {
+        display: flex; 
+        justify-content:space-between; 
+        flex-direction: row-reverse;
+    }
+    .board-1st {
+        width: 65%; 
+    }
+    .board-2nd {
+        width: 35%; 
     }
 }
 
